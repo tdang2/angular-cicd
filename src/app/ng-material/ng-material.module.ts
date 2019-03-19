@@ -6,6 +6,7 @@ import {MatListModule} from '@angular/material/list';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatButtonModule} from '@angular/material/button';
+import {MatTableModule} from '@angular/material/table';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import {MatButtonModule} from '@angular/material/button';
     MatDividerModule,
     MatGridListModule,
     MatButtonModule,
+    MatTableModule,
   ],
   exports: [
     CommonModule,
@@ -28,6 +30,7 @@ import {MatButtonModule} from '@angular/material/button';
     MatDividerModule,
     MatGridListModule,
     MatButtonModule,
+    MatTableModule
   ]
 })
 export class NgMaterialModule { }
