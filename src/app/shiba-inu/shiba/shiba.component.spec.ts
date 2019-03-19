@@ -1,5 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { NgMaterialModule } from '../../ng-material/ng-material.module';
 import { ShibaComponent } from './shiba.component';
 
 describe('ShibaComponent', () => {
@@ -8,7 +8,10 @@ describe('ShibaComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ShibaComponent ]
+      declarations: [ ShibaComponent ],
+      imports: [
+        NgMaterialModule
+      ]
     })
     .compileComponents();
   }));
